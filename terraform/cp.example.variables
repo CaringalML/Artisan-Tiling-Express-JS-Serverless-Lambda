@@ -1,0 +1,18 @@
+# variables.tf
+variable "domain_name" {
+  description = "Main domain name"
+  type        = string
+  default     = " " //put here the main domain name
+}
+
+variable "subdomain" {
+  description = "Subdomain for the API"
+  type        = string
+  default     = " " //put here the subdomain for the API
+}
+
+variable "mongodb_uri" {
+  description = "MongoDB connection string"
+  type        = string
+  default     = " " //put here the mongodb connection string
+}
